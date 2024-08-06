@@ -27,7 +27,7 @@
 //     b=10
 // }, 2000);
 
-// console.log(a+b); //output should be 20 but getting 10
+// console.log(a+b); //output should be 20 instead of 10
 
 
 //To solve the above problem use Promise

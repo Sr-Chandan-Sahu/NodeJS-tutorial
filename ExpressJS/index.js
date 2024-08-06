@@ -27,7 +27,10 @@ app.get('/about', (req, res) => {
         `)
 })
 app.get('/help', (req, res) => {
-    res.send("Welcome to HelpPage")
+    res.send({
+        'name':'chandan',
+        'age':'21'
+        })
 })
 
 
